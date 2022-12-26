@@ -1,0 +1,39 @@
+button[type='submit'] {
+	max-width: 100%;
+	background: rgb(76, 226, 71);
+	color: aliceblue;
+	font-size: medium;
+	font-weight: 800;
+	padding: 0.5rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.3rem;
+	margin-top: 1rem;
+	height: 3rem;
+}
+.header {
+	margin-bottom: 12px;
+}
+.login-input {
+	width: 90% !important;
+}
+.form {
+	/* max-width: 80%;
+	width: 45rem;
+	display: inline-flex;
+	flex-direction: column;
+	padding: 1rem;
+	align-self: center;
+	justify-content: center; */
+	margin-top: 2rem;
+}
+.app-wrapper {
+	position: relative;
+	min-width: 350px;
+	min-height: 500px;
+	top: 40%;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

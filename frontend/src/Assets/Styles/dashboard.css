@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	/* margin-top: 4rem; */
+}
+header {
+	position: relative;
+	top: 0;
+	height: 7rem;
+	width: 100%;
+	z-index: 2 !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+}
+header span {
+	margin-right: 2rem;
+}
+table {
+	height: 80vh;
+	width: 40vw;
+	border-collapse: collapse;
+}
+.datas {
+	list-style: none;
+}
+
+.headers {
+	height: 2rem;
+	align-items: center;
+	border: 0.2px solid black !important;
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: rgb(76, 226, 71);
+	border-radius: 0.3rem 0.3rem 0 0;
+}
+.container {
+	transform: translate(-50%, -50%);
+	display: flex;
+	width: 40vw;
+	height: 50vh;
+	padding: 2rem;
+	padding: 0;
+	margin: 0;
+	flex-direction: column;
+}
+.user-info {
+	border-right: 12px solid black;
+	flex: 1;
+	margin-right: 2rem;
+}
+.users-button {
+	height: 20px;
+	width: 100%;
+	background: none !important;
+	border: 0.5px solid green !important;
+	border-radius: 5px;
+	cursor: pointer;
+	color: green;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem 0.5rem 4rem;
+}
+.logout-button {
+	height: 40px;
+	width: 100%;
+	margin-bottom: 2rem;
+	background: crimson;
+	border: 1px solid crimson !important;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+}

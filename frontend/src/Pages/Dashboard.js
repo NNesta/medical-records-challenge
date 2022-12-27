@@ -32,7 +32,6 @@ export default function Dashboard() {
 					progress: undefined,
 				});
 				setDatas(response.data.data);
-				console.log('datassss===>>>', datas);
 			})
 			.catch(function (error) {
 				toast.error(error.response.data.message, {
@@ -44,7 +43,6 @@ export default function Dashboard() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log(error.response);
 			});
 	}, []);
 

@@ -44,7 +44,6 @@ export default function SignupForm() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log(response);
 				navigate('/login');
 			})
 			.catch(function (error) {
@@ -57,7 +56,6 @@ export default function SignupForm() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log(error.response);
 			});
 	};
 

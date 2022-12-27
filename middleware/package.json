@@ -1,0 +1,34 @@
+{
+	"name": "medical-data-mgnt-app-be",
+	"version": "1.0.0",
+	"description": "",
+	"import/extensions": [
+		"error",
+		"ignorePackages",
+		{
+			"js": "never",
+			"mjs": "never",
+			"jsx": "never"
+		}
+	],
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon --exec node src/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"node-fetch": "^3.3.0",
+		"request": "^2.88.2",
+		"url": "^0.11.0",
+		"xlsx": "^0.18.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}

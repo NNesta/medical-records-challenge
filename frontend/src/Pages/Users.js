@@ -17,7 +17,6 @@ export default function Dashboard() {
 		axios
 			.get(`http://localhost:5500/api/v1/users/all`)
 			.then(function (response) {
-				console.log(response.data.datas.Payload[0]);
 				toast.success(response?.data?.message, {
 					position: 'top-right',
 					autoClose: 5000,
@@ -39,7 +38,6 @@ export default function Dashboard() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log(error);
 			});
 	}, []);
 

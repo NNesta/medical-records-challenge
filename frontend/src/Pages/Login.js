@@ -36,7 +36,6 @@ export default function Signup() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log('datassss===>>>', response.data.data);
 				localStorage.setItem('user', JSON.stringify(response.data.data));
 				navigate('/dashboard');
 			})
@@ -50,7 +49,6 @@ export default function Signup() {
 					draggable: true,
 					progress: undefined,
 				});
-				console.log(error.response);
 			});
 	};
 
